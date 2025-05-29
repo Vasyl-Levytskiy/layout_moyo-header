@@ -2,15 +2,6 @@ body {
   margin: 0;
 }
 
-.text {
-  font-family: Roboto, sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 12px;
-  font-variation-settings: 'wdth' 100;
-}
-
 .header {
   box-sizing: border-box;
   display: flex;
@@ -19,7 +10,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding-inline: 50px;
 }
 
 .logo__img {
@@ -36,7 +27,6 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: Roboto, sans-serif;
 }
 
 .nav__link {
@@ -52,6 +42,9 @@ body {
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+
 }
 
 .is_active {
