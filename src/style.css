@@ -13,7 +13,6 @@ body {
 
 .header {
   box-sizing: border-box;
-  padding-inline: 50px;
   display: flex;
   flex-direction: row;
   background-color: #fff;
@@ -36,8 +35,8 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  padding-right: 30px;
-  padding-left: 50px;
+  list-style: none;
+  font-family: Roboto, sans-serif;
 }
 
 .nav__link {
@@ -49,7 +48,6 @@ body {
   font-size: 12px;
   height: 60px;
   line-height: 100%;
-  padding: 10px;
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
@@ -65,7 +63,7 @@ body {
   color: #00bfff;
 }
 
-.is-active::after {
+a.is-active::after {
   content: '';
   position: absolute;
   bottom: 0;
