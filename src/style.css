@@ -44,26 +44,33 @@ body {
   letter-spacing: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-
 }
 
-.is_active {
+.is-active {
   position: relative;
-  color: #00bfff;
+  color: #00acdc;
 }
 
-.hover {
-  color: #00bfff;
+.nav__link:hover {
+  color: #00acdc;
 }
 
-a.is-active::after {
+.is-active::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   height: 4px;
   width: 100%;
-  background-color: #00bfff;
+  background: #00acdc;
   border-radius: 8px;
   overflow: hidden;
+}
+
+.nav__item {
+  margin-left: 20px;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
 }
